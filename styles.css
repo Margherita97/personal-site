@@ -9,6 +9,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    color: #533B4D;
 }
 
 #hero {
@@ -18,7 +20,7 @@ body {
     height: 50%;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     padding: 2rem;
 }
 
@@ -27,6 +29,7 @@ body {
     width: 10rem;
     border-radius: 50%;
 }
+
 #menu {
     display: flex;
     flex-direction: row;
@@ -35,4 +38,5 @@ body {
     background-color: var(--body-background);
     padding: 2rem 1.5rem;
     border-radius: 20px;
+    font-weight: 700;
 }
