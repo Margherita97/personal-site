@@ -1,6 +1,7 @@
 :root {
     --hero-background: #533B4D; 
     --body-background: #FAE3C6;
+    --hover: #F564A9;
 }
 
 body {
@@ -40,3 +41,24 @@ body {
     border-radius: 20px;
     font-weight: 700;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: var(--hero-background);
+}
+
+a:visited {
+    color: var(--hero-background);
+}
+
+a:hover {
+    color: #FAA4BD;
+}
+
+a:active {
+    color: var(--hover);
+}
+
