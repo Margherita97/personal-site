@@ -1,5 +1,6 @@
 :root {
     --hero-background: #533B4D; 
+    --body-background: #FAE3C6;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
     flex-direction: column;
     background-color: var(--hero-background);
     height: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .avatar {
@@ -25,4 +30,9 @@ body {
 #menu {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    background-color: var(--body-background);
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
 }
