@@ -11,7 +11,18 @@ body {
 }
 
 #hero {
+    display: flex;
+    flex-direction: column;
     background-color: var(--hero-background);
     height: 50%;
-    display: inline-block;
+}
+
+.avatar {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
 }
