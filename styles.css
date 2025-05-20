@@ -8,8 +8,11 @@
 h1 {
     font-family: 'Quicksand', sans-serif;
     color: var(--hero-background);
-    font-size: 1.8rem;
-    text-align: center;
+    font-size: 2rem;
+}
+
+a, p {
+    font-size: 1.1rem;
 }
 
 body {
@@ -77,11 +80,13 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .section {
     max-width: 50rem;
     margin-left: 2rem;
+    text-align: center;
 }
 
 @media (max-width: 1000px) {
