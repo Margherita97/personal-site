@@ -98,6 +98,10 @@ a:active {
         padding: 1rem;
     }
 
+    #hero {
+        padding: 5rem;
+    }
+
     .section {
         margin: 0 3rem;
     }
