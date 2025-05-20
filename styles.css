@@ -11,7 +11,8 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Nunito', sans-serif;
-    color: #533B4D;
+    color: var(--hero-background);
+    background-color: var(--body-background);
 }
 
 #hero {
@@ -72,4 +73,5 @@ a:active {
         padding: 1rem;
     }
 }
+
 
