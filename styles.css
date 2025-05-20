@@ -2,6 +2,12 @@
     --hero-background: #533B4D; 
     --body-background: #FAE3C6;
     --hover: #F564A9;
+    --body-text: #5E4B56;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--hero-background);
 }
 
 body {
@@ -11,7 +17,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Nunito', sans-serif;
-    color: var(--hero-background);
+    color: var(--body-text);
     background-color: var(--body-background);
 }
 
