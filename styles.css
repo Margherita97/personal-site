@@ -62,3 +62,14 @@ a:active {
     color: var(--hover);
 }
 
+@media (max-width: 1000px) {
+    #menu {
+        display: flex;
+        flex-direction:  column;
+        width: 25%;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
