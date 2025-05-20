@@ -85,7 +85,6 @@ a:active {
 
 .section {
     max-width: 50rem;
-    margin-left: 2rem;
     text-align: center;
 }
 
@@ -97,6 +96,10 @@ a:active {
         align-items: center;
         gap: 1rem;
         padding: 1rem;
+    }
+
+    .section {
+        margin: 0 3rem;
     }
 }
 
