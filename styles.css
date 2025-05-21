@@ -93,7 +93,7 @@ a:active {
     #menu {
         display: flex;
         flex-direction:  column;
-        width: 80%;
+        width: 50%;
         align-items: center;
         gap: 1rem;
         padding: 1rem;
