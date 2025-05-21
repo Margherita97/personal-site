@@ -15,15 +15,15 @@ h1 {
     font-size: 2rem;
 }
 
+#menu a, p {
+    font-size: 1.1rem;
+}
+
 h2 {
     font-family: 'Quicksand', sans-serif;
     color: var(--hero-background);
     font-size: 1rem;
     font-weight: 700;
-}
-
-a, p {
-    font-size: 1.1rem;
 }
 
 body {
