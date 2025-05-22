@@ -121,6 +121,11 @@ a:active {
     margin-bottom: 1.5rem;
 }
 
+.languages {
+    display: flex;
+    gap: 5rem;
+}
+
 
 @media (max-width: 1000px) {
     #menu {
