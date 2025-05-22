@@ -130,6 +130,7 @@ a:active {
     background-color: var(--hero-background);
     color: var(--body-background);
     padding-left: 4rem;
+    margin-top: 10rem;
 }
 
 #footer > h1 {
