@@ -126,6 +126,15 @@ a:active {
     gap: 5rem;
 }
 
+#footer {
+    background-color: var(--hero-background);
+    color: var(--body-background);
+}
+
+#footer > h1 {
+    color: var(--body-background);
+}
+
 
 @media (max-width: 1000px) {
     #menu {
