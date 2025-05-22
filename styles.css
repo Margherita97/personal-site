@@ -121,9 +121,16 @@ a:active {
     margin-bottom: 1.5rem;
 }
 
+#about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .languages {
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 #footer {
