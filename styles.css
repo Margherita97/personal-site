@@ -172,6 +172,11 @@ a:active {
         flex-wrap: wrap;
         min-width: 100%;
     }
+
+    #about {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
 
 
