@@ -129,10 +129,16 @@ a:active {
 #footer {
     background-color: var(--hero-background);
     color: var(--body-background);
+    padding-left: 4rem;
 }
 
 #footer > h1 {
     color: var(--body-background);
+}
+
+#footer :nth-child(3) {
+    margin-top: 2rem;
+    font-size: 0.8rem;
 }
 
 
