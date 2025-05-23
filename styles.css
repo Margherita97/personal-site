@@ -9,7 +9,7 @@ html {
       scroll-behavior: smooth;
     }
 
-h1 {
+h2 {
     font-family: 'Quicksand', sans-serif;
     color: var(--hero-background);
     font-size: 1.5rem;
