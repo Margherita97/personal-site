@@ -133,6 +133,17 @@ a:active {
     gap: 2rem;
 }
 
+ul {
+    list-style-type: none;
+     line-height: 2rem;
+}
+
+ul > li {
+    font-family: 'Nunito', sans-serif;
+    color: var(--body-text);
+    font-size: 1.1rem;
+}
+
 #footer {
     background-color: var(--hero-background);
     color: var(--body-background);
